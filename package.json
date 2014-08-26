@@ -1,0 +1,30 @@
+{
+  "name": "organic-dna-branches",
+  "version": "0.0.1",
+  "description": "Helper methods for organic DNA branch based manipulations.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node ./test"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "organic": "^0.2.0"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "organic": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outbounder/organic-dna-branches.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/organic-dna-branches/issues"
+  },
+  "homepage": "https://github.com/outbounder/organic-dna-branches"
+}

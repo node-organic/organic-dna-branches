@@ -7,22 +7,27 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jasmine-node ./test"
+    "test": "jasmine",
+    "preversion": "npm test",
+    "release-patch": "npm version patch && npm publish",
+    "release-minor": "npm version minor && npm publish",
+    "release-major": "npm version major && npm publish",
+    "postversion": "git push origin master && git push origin master --tags"
   },
   "author": "Boris Filipov",
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "^1.14.5",
-    "organic": "^0.2.0"
+    "jasmine": "^3.10.0",
+    "organic": "^1.0.0"
   },
   "dependencies": {
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/outbounder/organic-dna-branches.git"
+    "url": "https://github.com/node-organic/organic-dna-branches.git"
   },
   "bugs": {
-    "url": "https://github.com/outbounder/organic-dna-branches/issues"
+    "url": "https://github.com/node-organic/organic-dna-branches/issues"
   },
-  "homepage": "https://github.com/outbounder/organic-dna-branches"
+  "homepage": "https://github.com/node-organic/organic-dna-branches"
 }

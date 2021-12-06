@@ -1,6 +1,6 @@
 {
   "name": "organic-dna-branches",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Helper methods for organic DNA branch based manipulations.",
   "main": "index.js",
   "directories": {
@@ -20,8 +20,7 @@
     "jasmine": "^3.10.0",
     "organic": "^1.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/node-organic/organic-dna-branches.git"
